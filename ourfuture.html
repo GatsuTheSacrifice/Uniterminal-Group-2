@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="ourfuture.css">
+   <link rel="stylesheet" href="aboutus.css">
+   <link href="https://fonts.cdnfonts.com/css/hagrid-trial" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+  <header class="header-main">
+    <div class="header-logo"> <img class="unity" src="logo.jpg" alt="Uniterminal Logo"></div>
+    <div class="text">
+        <h3 class="uniterminal-text">Uniterminal Bus System
+            <br>Provincial Bus Service</h3>
+    </div>
+    <nav class="header-nav">
+        <ul>
+           <li><a href="home.html" >Home</a></li> 
+            <li><a href="#" onclick="toggleMenuSchedules()">Schedules</a></li>
+            <li><a href="#" onclick="toggleMenuTickets()">Tickets</a></li>
+            <li><a href="#" onclick="toggleMenuTerminal()">Terminals</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+<!-- Terminals -->
+
+<div class="sub-menu-wrap-terminal" id="subMenuTerminal">
+<div class="sub-menu-terminal"> 
+      <a href="#" class="sub-menu-link-terminal">
+        <img src="pin.png" alt="">
+        <p> MAIN TO NORTH V.V</p>
+        <span>></span>
+      </a>
+<hr class="line-terminal">
+      <a href="#" class="sub-menu-link-terminal">
+        <img src="pin.png" alt="">
+        <p> MAIN TO SOUTH V.V</p>
+        <span>></span>
+      </a>
+
+</div>
+</div>
+
+
+<!-- Tickets -->
+
+<div class="sub-menu-wrap-tickets" id="subMenuTickets">
+<div class="sub-menu-tickets"> 
+      <a href="#" class="sub-menu-link-tickets">
+        <img src="pin.png" alt="">
+        <p> MAIN TO NORTH V.V</p>
+        <span>></span>
+      </a>
+<hr class="line-terminal">
+      <a href="#" class="sub-menu-link-tickets">
+        <img src="pin.png" alt="">
+        <p> MAIN TO SOUTH V.V</p>
+        <span>></span>
+      </a>
+
+</div>
+</div>
+
+
+<!-- Schedules -->
+
+<div class="sub-menu-wrap-schedules" id="subMenuSchedules">
+<div class="sub-menu-schedules"> 
+      <a href="#" class="sub-menu-link-schedules">
+        <img src="pin.png" alt="">
+        <p> MAIN TO NORTH V.V</p>
+        <span>></span>
+      </a>
+<hr class="line-schedules">
+      <a href="#" class="sub-menu-link-schedules">
+        <img src="pin.png" alt="">
+        <p> MAIN TO SOUTH V.V</p>
+        <span>></span>
+      </a>
+
+</div>
+</div>
+
+  </nav>
+
+  <script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+      subMenu.classList.toggle("open-menu");
+    }
+  </script>
+
+<script>
+  let subMenuTerminal = document.getElementById("subMenuTerminal");
+
+  function toggleMenuTerminal(){
+    subMenuTerminal.classList.toggle("open-terminal");
+  }
+</script>
+
+<script>
+  let subMenuTickets = document.getElementById("subMenuTickets");
+
+  function toggleMenuTickets(){
+    subMenuTickets.classList.toggle("open-tickets");
+  }
+</script>
+
+<script>
+let subMenuSchedules = document.getElementById("subMenuSchedules");
+
+function toggleMenuSchedules(){
+  subMenuSchedules.classList.toggle("open-schedules");
+}
+</script>
+
+<div class="button-div">
+  <button class="signup-button"><a href="signup-form.php">Signup</a></button>
+  <button class="login-button"><a href="login.php">Login</a></button>
+</div>
+
+
+</header>
+
+    <div class="img-overlay">
+    <div class="content-container">
+    <div class="background">
+        <div class="text-container">
+            <h2 class="header-text">OUR FUTURE</h2>
+            <p class="content-text">"In the near future, our goal is to revolutionize the bus terminal experience by implementing cutting-edge technologies and sustainable practices. We aim to create a seamless and eco-friendly transportation hub that not only enhances the efficiency of travel but also prioritizes environmental responsibility. Through the integration of smart infrastructure, renewable energy sources, and customer-centric services, we aspire to set a new standard for modern, sustainable, and passenger-friendly bus terminals."</p>
+            </div>
+             <div id="pic-container"><img src="ourfuture.png" alt="our future.png" id="ourfuture"></div> 
+    </div>
+    </div>
+    </div>
+
+    <div class="bg-grad"> 
+        <div class="title">
+            <h2>Get to know more about</h2>
+            <img src="logo.jpg" width="30%">
+        </div>
+        <div class="tit">
+            <div class="tit2" id="col1">
+              <a href=""><h3>FOUNDERS AND CO - MAKERS OF THE COMPANY</h3></a>
+            </div>
+
+            <div class="tit2" id="col2">
+              <a href=""><h3>BUS INFORMATION AND CLASSES</h3></a>
+            </div>
+        </div>
+        <div class="tit">
+            <div class="tit2" id="col1">
+              <a href=""><h3>FUTURE GOALS</h3></a>
+            </div>
+            <div class="tit2" id="col2">
+              <a href=""><h3>CUSTOMER TESTIMONIALS</h3></a>
+            </div>
+        </div>
+        <div class="tit">
+            <div class="tit2" id="col1">
+              <a href=""><h3>PARTNERSHIPS</h3></a>
+            </div>
+            <div class="tit2" id="col2">
+              <a href=""><h3>ADD A REVIEW</h3></a>
+            </div>
+        </div>
+        <div class="tit">
+            <div class="tit2" id="col3">
+              <a href=""><h3>CONTACT INFORMATION</h3></a>
+            </div>
+    </div>
+    </div>
+    
+    <!-- <footer class="navbar_down">
+        <div class="navdiv_down">
+          <ul class="nav_down">
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> About Us </a></li>
+            <li><a href="#"> Terminals </a></li>
+          </ul>  
+    
+        </div> 
+        <div class="button"> <a href="home.html">
+        <button class="backtotop"> BACK TO TOP</button> </a> 
+        <h3 class="allrights"> UNITERMINAL ALL RIGHTS RESERVED &copy; 2024</h3>
+        </div>    
+        </footer> -->
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+  background-image: linear-gradient(to right,#f1fcfc, #81e3f2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-family: 'Hagrid Text Trial';
+    text-align: center;
+    padding-top: 1px;
+    font-size: 25px;
+    margin-top: 3px;
+  }
+.logo{
+  margin-top: 50px;
+  margin-left:100px ;
+  width: 300px;
+}
+.log-in{
+  width: 490px;
+  height: 360px;
+  margin: auto;
+  margin-top: 160px;
+  background-color: white;
+  border-radius: 20px;
+}
+form{
+  width: 320px;
+  margin-left: 75px ;
+}
+form input{
+  width: 100%;
+  padding: 7px;
+  border: 3px solid white; 
+  border-bottom: 1px solid gray;
+  border-radius: 2px;
+}
+.button{
+    width: 100px;
+    height: 35px;
+    background-color: #FFF0C1;
+    border: 5px #FFF0C1;
+    border-radius: 10px;
+    margin: none;
+    margin-top: 40px;
+    margin-left: 135px ;
+    font-weight: bold;
+}

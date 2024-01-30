@@ -1,0 +1,446 @@
+.header-main{
+  width: 100%;
+  height: 80px;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-logo{
+  width: 210px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.unity {
+  margin-top: -5px;
+  padding-top: 0;
+  height: 50px;
+  width: fit-;
+}
+.text{
+  width: 250px;
+}
+.uniterminal-text{
+  font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+-webkit-text-stroke: 0.4px;
+-webkit-text-stroke-color: black;
+text-shadow: 2px 2px 4px #000000;
+font-weight: bold;
+margin-left: 20px;
+}
+.header-nav{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 1000px;
+  padding-left: 50px;
+  margin-left: 10px; 
+}
+.header-nav ul{
+  list-style: none;
+  display: inline-block;
+}
+.header-nav ul li{
+  float: left;
+  border-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 80px;
+}
+
+.header-main {
+  position: relative;
+}
+
+.button-div {
+  position: absolute;
+  top: 6.5%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.signup-button {
+  width: 70px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  color: #9c8a51af;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login-button {
+  width: 70px;
+  height: 50px;
+  margin-left: 7px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  background-color: #78B7BB;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #4cbcc9a5;
+}
+
+.signup-button:hover {
+  background-color: #e9ecf0d1;
+}
+/* Terminals */
+
+.sub-menu-wrap-terminal{
+  position: absolute;
+  top: 50%;
+  right: 27.8%;
+  width: 150px;
+  max-height: 0px;
+  margin-right: -50px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.sub-menu-wrap-terminal.open-terminal{
+  max-height: 210px;
+}
+.sub-menu-terminal{
+  z-index: 3;
+  background: #FAF9F6;
+  box-shadow: 3px 3px 3px 3px grey;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.sub-menu-link-terminal{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 12px 0;
+  border: 5px #FFF0C1;
+}
+.line-terminal{
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+
+  .sub-menu-link-terminal button{
+      width: 100%;
+  }
+  .sub-menu-link-terminal img{
+    width: 25px;
+    margin-left: -5px;
+  
+  }
+  .sub-menu-link-terminal p {
+    width: 100%;
+    font-size:11px;
+    margin-right: 10px;
+  }
+  .sub-menu-link-terminal span{
+    font-size: 18px;
+    transition: transform 0.5s;
+  }
+  .sub-menu-link-terminal:hover span{
+    transform: translateX(5px);
+  }
+  .sub-menu-link-terminal:hover p {
+    font-weight: 600;
+  }
+
+
+/* Tickets */
+
+.sub-menu-wrap-tickets{
+  position: absolute;
+  top: 50%;
+  right: 38.5%;
+  width: 150px;
+  max-height: 0px;
+  margin-right: -50px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.sub-menu-wrap-tickets.open-tickets{
+  max-height: 210px;
+}
+.sub-menu-tickets{
+  z-index: 3;
+  background: #FAF9F6;
+  box-shadow: 3px 3px 3px 3px grey;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.sub-menu-link-tickets{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 12px 0;
+  border: 5px #FFF0C1;
+}
+.line-tickets{
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+.sub-menu-link-tickets img{
+  width: 25px;
+  margin-left: -5px;
+
+}
+  .sub-menu-link-tickets button{
+      width: 100%;
+  }
+  .sub-menu-link-tickets p {
+    width: 100%;
+    font-size: 11px;
+    margin-right: 10px;
+  }
+  .sub-menu-link-tickets span{
+    font-size: 18px;
+    transition: transform 0.5s;
+  }
+  .sub-menu-link-tickets:hover span{
+    transform: translateX(5px);
+  }
+  .sub-menu-link-tickets:hover p {
+    font-weight: 600;
+  }
+
+/* Schedules */
+
+.sub-menu-wrap-schedules{
+  position: absolute;
+  top: 50%;
+  right: 49.2%;
+  width: 150px;
+  max-height: 0px;
+  margin-right: -50px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.sub-menu-wrap-schedules.open-schedules{
+  max-height: 210px;
+}
+.sub-menu-schedules{
+  z-index: 3;
+  background: #FAF9F6;
+  box-shadow: 3px 3px 3px 3px grey;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.sub-menu-link-schedules{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 12px 0;
+  border: 5px #FFF0C1;
+}
+.line-schedules{
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+.sub-menu-link-schedules img{
+  width: 25px;
+  margin-left: -5px;
+
+}
+  .sub-menu-link-schedules button{
+      width: 100%;
+  }
+  .sub-menu-link-schedules p {
+    width: 100%;
+    font-size: 11px;
+    margin-right: 10px;
+  }
+  .sub-menu-link-schedules span{
+    font-size: 18px;
+    transition: transform 0.5s;
+  }
+  .sub-menu-link-schedules:hover span{
+    transform: translateX(5px);
+  }
+  .sub-menu-link-schedules:hover p {
+    font-weight: 600;
+  }
+.uniterminal_text {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .text2 {
+    margin-left: 30px;
+    margin-top: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  #def{
+    background-color: #78b7bb;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 3rem;
+    padding: 17px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    cursor: default;
+  }
+
+  h1{
+    background-color: #fff0c1;
+    font-family: 'Hagrid Text Trial', sans-serif;
+    margin-top: 3rem;
+    text-align: center;
+    padding: 14px;
+    padding-top: 3px;
+    width: 91%;
+    border-radius: 50px;
+    border: 3px black solid;
+    cursor: default;
+
+  }
+
+  .tit{
+    margin-left: 180px;
+  }
+
+  .bg{
+   background-image: url(BUSBG.jpg);
+   margin-top: 3rem;
+   background-size: cover;
+   background-position: center;
+   display: grid;
+   place-content: center;
+   text-align: center;
+   min-height: 500px;
+   position: relative;
+   isolation: isolate;
+  }
+
+  .bg::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #78b7bb;
+    z-index: -1;
+    opacity: .5;
+  }
+
+  .parent{
+    width: 900px;
+    height: 550px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .parent h6{
+    color: white;
+  }
+
+  .child{
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    background-color: #CFEAE9;
+    border: 3px solid lightgray;
+    border-radius: 30px;
+    margin: auto;
+  }
+
+  #title{
+    font-family: 'Hagrid Text Trial', sans-serif;
+    cursor: default;
+  }
+
+  .bg p{
+    font-family: sans-serif;
+    
+  }
+
+  .bg-grad{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#ffffff, #e9f8ff);
+}
+
+h2{
+    font-family: 'Hagrid Text Trial', sans-serif;
+    margin-top: 20px;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+img{
+    margin-left: 20px;
+}
+
+.tit2{
+    background-color: #fff0c1;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 3rem;
+    padding: 14px;
+    padding-top: 18px;
+    width: 40%;
+    border-radius: 50px;
+    border: 1px black solid;
+    display: inline-block;
+    transition: 200ms;
+}
+
+#col1{
+    margin-left: 40px;
+}
+
+#col2{
+    margin-left: 40px;
+}
+
+#col3{
+    margin-left: 270px;
+}
+
+.tit2:hover{
+    background-color: #78b7bb;
+    border: 4px solid #fff0c1;
+    transform: scale(0.9);
+}
+
+.tit2:active{
+    transform: scale(0.9);
+    background-color: #e9f8ff;
+}

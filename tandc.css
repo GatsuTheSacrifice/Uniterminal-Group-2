@@ -1,0 +1,31 @@
+.terms_title{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(120, 183, 187);
+    margin-top: 50px;
+    text-align: center;
+  }
+  .terms_conditions{
+   display: inline-block;
+   text-shadow: 2px 2px 8px white;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+  }
+  .content{
+    top: 35%;
+    width: 1100px;
+    text-align: right;
+  }
+  .content h2{
+    font-size: 30px;
+    text-align: left;
+    font-weight:bold ;
+  }
+  .content p {
+    word-wrap: break-word;
+    font-size: 20px;
+    text-align: left;
+  }

@@ -1,0 +1,165 @@
+.img-overlay{
+    background-image: url("BUSBG.jpg");
+     width: 100%;
+    height: 519px;
+}
+.button-div {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: 35px;
+    transform: translateY(-50%);
+    display: flex;
+  }
+  
+
+.content-container{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 519px;
+    background: rgba(129, 186, 187, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.background{   
+    display: flex;
+    float: left;
+    width: 1000px;
+    height: 460px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.text-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 310px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 15px;
+}
+
+.header-text{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.content-text{
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#pic-container{
+    width: 200px;
+    height: 450px;
+    margin-left: 125px;
+}
+
+#ourfuture{
+   margin-top: 56px; 
+   height: 400px;
+}
+
+.bg-grad{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#ffffff, #e9f8ff);
+}
+
+h2{
+    font-family: 'Hagrid Text Trial', sans-serif;
+    margin-top: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+img{
+    margin-left: 20px;
+}
+
+.tit2{
+    background-color: #fff0c1;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 3rem;
+    padding: 14px;
+    padding-top: 18px;
+    width: 40%;
+    border-radius: 50px;
+    border: 1px black solid;
+    display: inline-block;
+    transition: 200ms;
+}
+
+#col1{
+    margin-left: 92px;
+}
+
+#col2{
+    margin-left: 40px;
+}
+
+#col3{
+    margin-left: 350px;
+}
+
+.tit2:hover{
+    background-color: #78b7bb;
+    border: 4px solid #fff0c1;
+    transform: scale(0.9);
+}
+
+.tit2:active{
+    transform: scale(0.9);
+    background-color: #e9f8ff;
+}
+
+.navbar_down {
+    height: 160px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: black solid 2px;
+  }
+
+.nav_down{
+    margin-top: 25px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-weight: bold;
+    
+  }
+
+  .button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    white-space: nowrap;
+    margin-top: 25px;
+    line-height: 50px;
+    font-weight: bold;
+    }
+
+.backtotop{
+    background-color: rgb(255, 241, 193);
+    width: 250px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}

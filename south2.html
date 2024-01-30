@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="sched.css">
+    <title>Schedule</title>
+</head>
+<body>
+    <header class="header-main">
+        <div class="header-logo"> <img class="unity" src="logo.jpg" alt="Uniterminal Logo"></div>
+        <div class="text">
+            <h3 class="uniterminal-text">Uniterminal Bus System
+                <br>Provincial Bus Service</h3>
+        </div>
+        <nav class="header-nav">
+            <ul>
+               <li><a href="#" >Home</a></li> 
+                <li><a href="#" onclick="toggleMenuSchedules()">Schedules</a></li>
+                <li><a href="#" onclick="toggleMenuTickets()">Tickets</a></li>
+                <li><a href="#" onclick="toggleMenuTerminal()">Terminals</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+    
+      <!-- Terminals -->
+    
+    <div class="sub-menu-wrap-terminal" id="subMenuTerminal">
+      <div class="sub-menu-terminal"> 
+            <a href="#" class="sub-menu-link-terminal">
+              <img src="pin.png" alt="">
+              <p> MAIN TO NORTH V.V</p>
+              <span>></span>
+            </a>
+    <hr class="line-terminal">
+            <a href="#" class="sub-menu-link-terminal">
+              <img src="pin.png" alt="">
+              <p> MAIN TO SOUTH V.V</p>
+              <span>></span>
+            </a>
+    
+      </div>
+    </div>
+    
+    
+    <!-- Tickets -->
+    
+    <div class="sub-menu-wrap-tickets" id="subMenuTickets">
+      <div class="sub-menu-tickets"> 
+            <a href="#" class="sub-menu-link-tickets">
+              <img src="pin.png" alt="">
+              <p> MAIN TO NORTH V.V</p>
+              <span>></span>
+            </a>
+    <hr class="line-terminal">
+            <a href="#" class="sub-menu-link-tickets">
+              <img src="pin.png" alt="">
+              <p> MAIN TO SOUTH V.V</p>
+              <span>></span>
+            </a>
+    
+      </div>
+    </div>
+    
+    
+    <!-- Schedules -->
+    
+    <div class="sub-menu-wrap-schedules" id="subMenuSchedules">
+      <div class="sub-menu-schedules"> 
+            <a href="#" class="sub-menu-link-schedules">
+              <img src="pin.png" alt="">
+              <p> MAIN TO NORTH V.V</p>
+              <span>></span>
+            </a>
+    <hr class="line-schedules">
+            <a href="#" class="sub-menu-link-schedules">
+              <img src="pin.png" alt="">
+              <p> MAIN TO SOUTH V.V</p>
+              <span>></span>
+            </a>
+    
+      </div>
+    </div>
+    
+        </nav>
+    
+        <script>
+          let subMenu = document.getElementById("subMenu");
+    
+          function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+          }
+        </script>
+    
+      <script>
+        let subMenuTerminal = document.getElementById("subMenuTerminal");
+    
+        function toggleMenuTerminal(){
+          subMenuTerminal.classList.toggle("open-terminal");
+        }
+      </script>
+    
+      <script>
+        let subMenuTickets = document.getElementById("subMenuTickets");
+    
+        function toggleMenuTickets(){
+          subMenuTickets.classList.toggle("open-tickets");
+        }
+      </script>
+    
+    <script>
+      let subMenuSchedules = document.getElementById("subMenuSchedules");
+    
+      function toggleMenuSchedules(){
+        subMenuSchedules.classList.toggle("open-schedules");
+      }
+    </script>
+    
+    </header>
+    
+    <main>
+      <div class="welcome">
+          <p class="caption"> Welcome to the North and South Luzon Bus Systems Co. We are happy to serve you on your hassle-free and comfortable trip. </p>
+      </div>
+          <!--for the header of page-->
+          <div class="header"><h1 id="head">BUS SCHEDULES</h1></div>
+      
+          <!--spaces-->
+          <br>
+          <br>
+      
+          <!--for the table-->
+          <section>
+              <!--outer table-->
+                  <div class="flex-container">
+                      <!--inner table-->
+                      <div class="inner-container">
+                          <!--main table-->
+                          <div class="table-container">
+                              <!--table for schedule-->
+                              <div class="table-row">
+                                  <div class="table-terminal">BATANGAS CITY TERMINAL</div>
+                              </div>
+                              <div class="table-header">
+                                  <div class="table-cell">FROM</div>
+                                  <div class="table-cell">TO</div>
+                                  <div class="table-cell">DEPARTURE TIME</div>
+                                  <div class="table-cell">CLASS</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">DASMARIÑAS</div>
+                                  <div class="table-data">6:00 AM</div>
+                                  <div class="table-data">FIRST CLASS, DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">DASMARIÑAS</div>
+                                  <div class="table-data">11:00 AM</div>
+                                  <div class="table-data">FIRST CLASS</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">DASMARIÑAS</div>
+                                  <div class="table-data">4:00 PM</div>
+                                  <div class="table-data">DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">LEGAZPI, BICOL</div>
+                                  <div class="table-data">7:00 AM</div>
+                                  <div class="table-data">FIRST CLASS, DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">LEGAZPI, BICOL</div>
+                                  <div class="table-data">12:00 PM</div>
+                                  <div class="table-data">FIRST CLASS</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">LEGAZPI, BICOL</div>
+                                  <div class="table-data">6:00 PM</div>
+                                  <div class="table-data">DELUXE, SUPER DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">NAGA, BICOL</div>
+                                  <div class="table-data">7:00 AM</div>
+                                  <div class="table-data">FIRST CLASS, DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">NAGA, BICOL</div>
+                                  <div class="table-data">12:00 PM</div>
+                                  <div class="table-data">FIRST CLASS</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">NAGA, BICOL</div>
+                                  <div class="table-data">6:00 PM</div>
+                                  <div class="table-data">DELUXE, SUPER DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">PASAY</div>
+                                  <div class="table-data">8:30 AM</div>
+                                  <div class="table-data">FIRST CLASS, SUPER DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">PASAY</div>
+                                  <div class="table-data">11:00 AM</div>
+                                  <div class="table-data">FIRST CLASS</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">PASAY</div>
+                                  <div class="table-data">4:00 PM</div>
+                                  <div class="table-data">DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">STA.ROSA</div>
+                                  <div class="table-data">1:30 PM</div>
+                                  <div class="table-data">FIRST CLASS, DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">STA.ROSA</div>
+                                  <div class="table-data">4:30 PM</div>
+                                  <div class="table-data">FIRST CLASS</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS CITY</div>
+                                  <div class="table-data">STA.ROSA</div>
+                                  <div class="table-data">8:30 PM</div>
+                                  <div class="table-data">DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-terminal">BATANGAS PORT TERMINAL</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS PORT</div>
+                                  <div class="table-data">DASMARIÑAS</div>
+                                  <div class="table-data">10:00 AM</div>
+                                  <div class="table-data">FIRST CLASS, DELUXE</div>
+                              </div>
+                              <div class="table-row">
+                                  <div class="table-data">BATANGAS PORT</div>
+                                  <div class="table-data">DASMARIÑAS</div>
+                                  <div class="table-data">12:00 PM</div>
+                                  <div class="table-data">FIRST CLASS</div>
+                        </div>                    
+                    <div class="button-container">
+                        <a href="south1.html"><div class="arr left"><div></div></div></a>
+                        <a href="south3.html"><div class="arr right"><div></div></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="navbar_down">
+    <div class="navdiv_down">
+      <ul class="nav_down">
+        <li><a href="#"> Home </a></li>
+        <li><a href="#"> About Us </a></li>
+        <li><a href="#"> Terminals </a></li>
+      </ul>  
+
+    </div> 
+    <div class="button"> <a href="home.html">
+    <button class="backtotop"> BACK TO TOP</button> </a> 
+    <h3 class="allrights"> UNITERMINAL ALL RIGHTS RESERVED &copy; 2024</h3>
+    </div>    
+    
+</footer>
+
+</body>
+</html>

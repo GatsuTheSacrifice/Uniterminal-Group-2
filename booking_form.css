@@ -1,0 +1,145 @@
+*{
+    scroll-behavior: smooth;
+  }
+  body{
+    background-image: url("bg image.png");
+  }
+ 
+  .hh {
+    font-family: 'Hagrid Trial', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: -10px;
+  }
+  
+  body {
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background: #fbfbfb;
+  
+  }
+  
+  .container {
+    font-family: 'Hagrid Text Trial', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #fff0c1;
+    padding: 25px;
+    border-radius: 8px;
+  }
+  
+  .container header {
+    font-family: 'Hagrid Trial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align:left;
+  }
+  
+  .container .form {
+    font-family: 'Hagrid Trial', sans-serif;
+    margin-top: 30px;
+    margin-right: auto;
+  }
+  
+  .form .input-box {
+    width: 100%;
+    text-align: left;
+    font-size: 0.9rem;
+    margin-right: 30px;
+  }
+  
+  .form .input-box input {
+    text-align: left;
+    height: 30px;
+    width: 100%, fit-content;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+  }
+  
+  .form .input-box select {
+    height: 30px;
+    width: 100%, fit-content;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .column {
+    text-align: left;
+    display: flex;
+    column-gap: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .note {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  .popup{
+    width: 400px;
+    background-color: rgb(142, 219, 183);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: 0.4s, top 0.4s;
+  }
+  .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .popup img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border-color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .popup h2{
+    font-family: 'Hagrid Trial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+    text-shadow: 2px 2px 8px white;
+  }
+  .popup p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  .popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+  @media screen and (max-width: 500px) {
+    .form .column{
+       flex-wrap: wrap; 
+    }
+  }
