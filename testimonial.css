@@ -1,7 +1,6 @@
 body{
     background-image: url('bg image.png');
-        background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header-main{
     width: 100%;
@@ -10,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: none;
   }
   .header-logo{
     width: 210px;
@@ -298,10 +298,10 @@ body{
     margin-bottom: 50px;
 }
 
-* {
+/* * {
     box-sizing: border-box;
     border-radius: 30px;
-}
+} */
 .reviews {
     width: 70%;
     margin: auto;
@@ -320,6 +320,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     height: 350px; /* Set a specific height for uniformity */
+    border-radius: 30px;
 }
 .apostrophe{
     margin-top: -10px;
@@ -333,4 +334,67 @@ body{
 }
 .pic3{
     margin-top: 30px;
+}
+.bg-grad{
+  height: 100vh;
+  width: 100%;
+  /* background-image: linear-gradient(#ffffff, #e9f8ff); */
+}
+
+h2{
+  font-family: 'Hagrid Text Trial', sans-serif;
+  margin-top: 20px;
+}
+
+.titles{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+img{
+  margin-left: 10px;
+}
+
+.tit{
+  margin-left: 180px;
+  font-family: sans-serif;
+}
+
+.tit2{
+  background-color: #fff0c1;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 3rem;
+  padding: 14px;
+  padding-top: 18px;
+  width: 40%;
+  border-radius: 50px;
+  border: 1px black solid;
+  display: inline-block;
+  transition: 200ms;
+}
+
+#col1{
+  margin-left: 40px;
+}
+
+#col2{
+  margin-left: 40px;
+}
+
+#col3{
+  margin-left: 270px;
+}
+
+.tit2:hover{
+  background-color: #78b7bb;
+  border: 4px solid #fff0c1;
+  transform: scale(0.9);
+}
+
+.tit2:active{
+  transform: scale(0.9);
+  background-color: #e9f8ff;
 }

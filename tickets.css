@@ -321,13 +321,13 @@
     margin: 50px 20px 20px 110px;
     padding: 50px 0 0 52px;
     width: 1130px;
-    height: 1000px;
+    height: 6400px;
     background-color: rgb(120, 183, 187);
     align-items: center;
   }
   .child-container{
     width: 1025px;
-    height: 900px;
+    height: 6300px;
     border: black solid 2px;
     background-color: white;
   }
