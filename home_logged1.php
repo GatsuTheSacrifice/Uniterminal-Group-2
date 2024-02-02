@@ -24,11 +24,11 @@ require_once 'login_view.in.php';
     </div>
     <nav class="header-nav">
         <ul>
-            <li><a href="signup-form.php" >Home</a></li> 
+            <li><a href="home_logged1.php" >Home</a></li> 
             <li><a href="#" onclick="toggleMenuSchedules()">Schedules</a></li>
             <li><a href="#" onclick="toggleMenuTickets()">Tickets</a></li>
             <li><a href="#" onclick="toggleMenuTerminal()">Terminals</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="aboutus dup copy.html">About Us</a></li>
             
         <img src="icon 1.jpg" alt="user icon" class="icon" onclick="toggleMenu()">
 

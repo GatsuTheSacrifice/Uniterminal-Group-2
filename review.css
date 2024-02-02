@@ -1,0 +1,207 @@
+.header-main{
+    width: 100%;
+    height: 80px;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: black solid 2px;
+
+}
+
+.header-logo{
+    width: 210px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: -10px;
+}
+
+.unity {
+    margin-top: -5px;
+    padding-top: 0;
+    height: 50px;
+}
+
+.text{
+    width: 250px;
+}
+
+.uniterminal-text{
+  font-size: 17px; /* change this in all of files */
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  -webkit-text-stroke: 0.4px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+}
+
+.header-nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1000px;
+    padding-left: 50px;
+    margin-left: 10px;
+}
+
+.header-nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.header-nav ul li{
+    float: left;
+    padding-right: 5px;
+    padding-left: 11px;
+    border-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+.welcome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 183, 187);
+    height: 50px;
+}
+
+.caption {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    -webkit-text-stroke: 0.09px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.overlay{
+    background-color: rgba(129, 186, 187, 0.7);
+}
+
+.background{
+    background-image: url(images/BUSBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-position: left;
+}
+
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    top: 25%;
+    height: 520px;
+    position: absolute;
+    box-shadow: 0 0 5px black;
+    border: 3px solid black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: white;
+}
+
+.container h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:'hagrid text trial', sans-serif;
+}
+.caption1{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.container input{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding: 15px 20px;
+
+}
+
+.container input:focus{
+    border: 3px solid black;
+    outline: 0;
+}
+
+.container textarea{
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+}
+
+.container textarea:focus{
+    border: 3px solid black;
+    outline: 0;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    transform: translate(60%, 20%);
+}
+
+.container button{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-weight: bold;
+    background: rgb(255, 241, 193);;
+    color: #000;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.navbar_down {
+    height: 160px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: black solid 2px;
+}
+
+.nav_down{
+    margin-top: 25px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-weight: bold;
+    
+  }
+
+.button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    white-space: nowrap;
+    margin-top: 25px;
+    line-height: 50px;
+    font-weight: bold;
+    }
+
+.backtotop{
+    background-color: rgb(255, 241, 193);
+    width: 250px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}

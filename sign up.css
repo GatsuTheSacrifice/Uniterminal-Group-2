@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to right,#f1fcfc, #81e3f2);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .logo{
+    margin-top: 50px;
+    margin-left:100px ;
+    width: 300px;
+  }
+  .sign-up-form{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 30px;
+  }
+  h1{
+    font-family: 'Hagrid Text Trial';
+    text-align: center;
+  }
+  form{
+    width: 350px;
+    margin-left: 65px ;
+  }
+  form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input{
+    width: 100%;
+    padding: 7px;
+    border: 3px solid black; 
+    border-radius: 5px;
+    
+  }
+  .button{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    border: 5px black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#cdffd8, #94b9ff);
+    color: black;
+    margin: none;
+    margin-left: 135px ;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  p{
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  

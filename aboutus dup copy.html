@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
-    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="aboutus copy.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="sched_log.css">
     <link href="https://fonts.cdnfonts.com/css/hagrid-trial" rel="stylesheet">
 </head>
 
@@ -20,70 +19,105 @@
     </div>
     <nav class="header-nav">
         <ul>
-           <li><a href="home.html" >Home</a></li> 
+           <li><a href="home_logged1.php" >Home</a></li> 
             <li><a href="#" onclick="toggleMenuSchedules()">Schedules</a></li>
             <li><a href="#" onclick="toggleMenuTickets()">Tickets</a></li>
             <li><a href="#" onclick="toggleMenuTerminal()">Terminals</a></li>
             <li><a href="#">About Us</a></li>
+
+            <img src="icon 1.jpg" alt="user icon" class="icon" onclick="toggleMenu()">
+
         </ul>
 
-<!-- Terminals -->
+<!-- user profile -->
+<div class="sub-menu-wrap" id="subMenu">
+  <div class="sub-menu"> 
+      <div class="user-info">
+          <img src="icon 1.jpg" class="icon2">
+          <h3>Account Settings  </h3>
+      </div>
+      <hr>
 
-<div class="sub-menu-wrap-terminal" id="subMenuTerminal">
-  <div class="sub-menu-terminal"> 
-        <a href="Terminal login signup.html" class="sub-menu-link-terminal">
-          <img src="pin.png" alt="">
-          <p> MAIN TO NORTH V.V</p>
+        <a href="tandc.html" class="sub-menu-link">
+          <img src="t&c.png" alt="">
+          <p> Terms and Conditions</p>
           <span>></span>
         </a>
-<hr class="line-terminal">
-        <a href="Terminal login signup.html" class="sub-menu-link-terminal">
-          <img src="pin.png" alt="">
-          <p> MAIN TO SOUTH V.V</p>
+
+        <a href="contact.html" class="sub-menu-link">
+          <img src="customer-service.png" alt="">
+          <p> Contact / Helpdesk</p>
+          <span>></span>
+        </a>
+
+        <a href="#" class="sub-menu-link">
+          <img src="logout.png" alt="">
+          <form action="logout.inc.php">
+          <button class="logout"> Log Out</button>
+          </form>
           <span>></span>
         </a>
 
   </div>
+</div>
+
+<!-- Terminals -->
+
+<div class="sub-menu-wrap-terminal" id="subMenuTerminal">
+<div class="sub-menu-terminal"> 
+      <a href="Terminal login signup.html" class="sub-menu-link-terminal">
+        <img src="pin.png" alt="">
+        <p> MAIN TO NORTH V.V</p>
+        <span>></span>
+      </a>
+<hr class="line-terminal">
+      <a href="Terminal login signup.html" class="sub-menu-link-terminal">
+        <img src="pin.png" alt="">
+        <p> MAIN TO SOUTH V.V</p>
+        <span>></span>
+      </a>
+
+</div>
 </div>
 
 
 <!-- Tickets -->
 
 <div class="sub-menu-wrap-tickets" id="subMenuTickets">
-  <div class="sub-menu-tickets"> 
-        <a href="tickets.html" class="sub-menu-link-tickets">
-          <img src="pin.png" alt="">
-          <p> MAIN TO NORTH V.V</p>
-          <span>></span>
-        </a>
+<div class="sub-menu-tickets"> 
+      <a href="#" class="sub-menu-link-tickets">
+        <img src="pin.png" alt="">
+        <p> MAIN TO NORTH V.V</p>
+        <span>></span>
+      </a>
 <hr class="line-terminal">
-        <a href="tickets-south.html" class="sub-menu-link-tickets">
-          <img src="pin.png" alt="">
-          <p> MAIN TO SOUTH V.V</p>
-          <span>></span>
-        </a>
+      <a href="#" class="sub-menu-link-tickets">
+        <img src="pin.png" alt="">
+        <p> MAIN TO SOUTH V.V</p>
+        <span>></span>
+      </a>
 
-  </div>
+</div>
 </div>
 
 
 <!-- Schedules -->
 
 <div class="sub-menu-wrap-schedules" id="subMenuSchedules">
-  <div class="sub-menu-schedules"> 
-        <a href="schedule login signup.html" class="sub-menu-link-schedules">
-          <img src="pin.png" alt="">
-          <p> MAIN TO NORTH V.V</p>
-          <span>></span>
-        </a>
+<div class="sub-menu-schedules"> 
+      <a href="schedule login signup.html" class="sub-menu-link-schedules">
+        <img src="pin.png" alt="">
+        <p> MAIN TO NORTH V.V</p>
+        <span>></span>
+      </a>
 <hr class="line-schedules">
-        <a href="south1 dup.html" class="sub-menu-link-schedules">
-          <img src="pin.png" alt="">
-          <p> MAIN TO SOUTH V.V</p>
-          <span>></span>
-        </a>
+      <a href="south1 dup.html" class="sub-menu-link-schedules">
+        <img src="pin.png" alt="">
+        <p> MAIN TO SOUTH V.V</p>
+        <span>></span>
+      </a>
 
-  </div>
+</div>
 </div>
 
   </nav>
@@ -122,12 +156,6 @@ function toggleMenuSchedules(){
 
 
 </header>
-
-  <div class="button-div">
-    <button class="signup-button"><a href="signup-form.php">Signup</a></button>
-    <button class="login-button"><a href="login.php">Login</a></button>
-</div>
-
 </header>
 
 <div class="welcome">
